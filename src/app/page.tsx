@@ -1,24 +1,26 @@
 import Image from "next/image";
 import Hero from "./hero";
-import BestAir from "./BESTAIR";
-import Featured from "./FEATURED";
-import { GearUpShop } from "./GearUpShop";
-import DontMiss from "./dontMiss"
+import Featured from "./Featured"
+import DontMiss from "./DontMiss";
 import Essentials from "./essential";
 import Lists from "./lists";
+import ProductSlider from "./AirMaxSlider";
+import GearUpSlider from "./GearUpSlider";
 
 
 export default function Home() {
   return (
-    <div>
+    <main>
     <Hero />
-    <BestAir />
+    <section className="px-10">
+          <ProductSlider />
+      </section>
     <Featured />
-    <GearUpShop />
+    <GearUpSlider />
     <DontMiss />
     <Essentials />
     <Lists />
  
-    </div>
+    </main>
   );
 }

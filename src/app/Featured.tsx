@@ -3,18 +3,18 @@ import Image from "next/image";
 import HeroImage from "../../public/assets/images/hero2Image.png"
 export default function Featured() {
   return (
-    <main className="m-4">
+    <main className="m-4 px-10 md:px-0">
       <div>
-        <h1 className="font-semibold text-xl py-5">Featured</h1>
+        <h2 className="mb-4 font-bold text-xl">Featured</h2>
       </div>
       {/* image */}
-      <div className="flex justify-center items-center px-4">
+      <div className="flex justify-center items-center">
         <Image
           src={HeroImage}
           alt="man"
           width={1150}
           height={700}
-          className="w-full max-w-7xl h-auto"
+          className="w-full h-auto"
         />
       </div>
       <div className="flex justify-center items-center flex-col gap-3 p-10">

@@ -1,7 +1,7 @@
 import { FaCartPlus } from "react-icons/fa";
 import { Button } from "../../components/ui/button"; // Assuming you have a Button component
 import Image from "next/image";
-import Shoe from "../../../public/assets/images/product3.png"
+import Shoe from "../../../public/assets/products/product-3.png"
 export default function ProductDetail() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between p-5 sm:p-10">
@@ -24,7 +24,7 @@ export default function ProductDetail() {
           PLT.AF.ORM
           </h2>
           <p className="text-sm leading-5 w-[60%] pt-3 pb-2 text-left">
-          Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its "inside out"-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette. Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.
+          Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its &lsquo;inside&rsquo; out-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette. Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.
           </p>
           {/* Price Text Above Button */}
           <p className="text-2xl font-bold text-left pt-3 pb-2">

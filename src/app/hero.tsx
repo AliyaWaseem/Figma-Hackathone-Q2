@@ -20,13 +20,13 @@ export default function Hero() {
       </div>
 
       {/* image */}
-      <div className="flex justify-center items-center px-4">
+      <div className="flex justify-center items-center px-10">
         <Image
           src={HeroImage}
           alt="shoes"
           width={1150}
           height={700}
-          className="w-full max-w-7xl h-auto"
+          className="w-[1440px] h-auto"
         />
       </div>
 

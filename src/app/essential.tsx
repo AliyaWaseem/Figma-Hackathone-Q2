@@ -1,49 +1,32 @@
 import { Button } from "../components/ui/button";
-
+import Image from "next/image";
+import E1 from "../../public/assets/images/essential1.png";
+import E2 from "../../public/assets/images/essential2.png";
+import E3 from "../../public/assets/images/essential3.png";
 export default function Essentials() {
   return (
-    <main className="m-4">
-      <div>
-      <div className="flex justify-center items-center flex-col gap-3 p-10">
-        <h2 className=" text-4xl font-bold uppercase"> FLIGHT ESSENTIALS </h2>
-        <p className="text-sm leading-5 w-[60%] pt-3 pb-2 text-center">
-            Your built-to-last, all-week wears--but with style only Jordan Brand can deliver.
-        </p>
-        <Button className="text-white">Shop</Button>
+    <section className="px-10 md:px-4">
+    <h2 className="mb-4 font-bold text-xl">The Essentials</h2>
+    <div className="grid grid-cols-12 gap-4">
+      <div className="col-span-12 md:col-span-4 m-auto relative">
+        <Image src={E1} alt="Mens Thumbnail"/>
+        <div className="absolute bottom-10 left-8">
+          <button className="bg-white px-6 py-2 rounded-full">Men&apos;s</button>
+        </div>
       </div>
-
-        <h1 className="font-semibold text-xl py-5">The Essentials</h1>
+      <div className="col-span-12 md:col-span-4 m-auto relative">
+        <Image src={E2} alt="Womens Thumbnail"/>
+        <div className="absolute bottom-10 left-8">
+          <button className="bg-white px-6 py-2 rounded-full">Women&apos;s</button>
+        </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div
-          style={{
-            backgroundImage: "url('/assests/essential1.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "540px",
-          }}
-        ></div>
-        <div
-          style={{
-            backgroundImage: "url('/assests/essential2.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "540px",
-          }}
-        ></div>
-        <div
-          style={{
-            backgroundImage: "url('/assests/essential3.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "540px",
-          }}
-        ></div>
+      <div className="col-span-12 md:col-span-4 m-auto relative">
+        <Image src={E3} alt="Kids Thumbnail"/>
+        <div className="absolute bottom-10 left-8">
+          <button className="bg-white px-6 py-2 rounded-full">Kid&apos;s</button>
+        </div>
       </div>
-      
-    </main>
+    </div>
+  </section>
   );
 }

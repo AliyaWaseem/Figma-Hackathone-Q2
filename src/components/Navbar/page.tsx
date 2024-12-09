@@ -13,7 +13,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   return (
 <div>
-        <header className="bg-[#F5F5F5] border-b font-[Helvetica Neue] flex justify-between items-center px-5 py-2">
+        <header className="bg-[#F5F5F5] border-b font-[Helvetica Neue] flex justify-between items-center px-5 md:px-10 py-2">
           {/* Logo Section */}
           <Image src={Logo} alt="Logo" className="w-[25px] md:w-[50px]" />
     
@@ -42,25 +42,25 @@ const Navbar = () => {
     
     <header className="bg-white border-b shadow-sm">
       {/* Main Navbar */}
-      <div className="flex justify-between items-center px-4 md:px-8 py-2">
+      <div className="flex justify-between items-center px-4 md:px-10 py-2">
         {/* Logo */}
         <Image src={Nike} alt="Logo" className="w-[35px] md:w-[60px]" />
 
         {/* Navigation Links (hidden on mobile) */}
         <nav className="hidden md:flex space-x-6 items-center font-medium">
-          <a href="#" className="text-black hover:underline">
+          <a href="/all-products" className="text-black hover:underline">
             New & Featured
           </a>
-          <a href="#" className="text-black hover:underline">
+          <a href="/productDetail" className="text-black hover:underline">
             Men
           </a>
-          <a href="#" className="text-black hover:underline">
+          <a href="/productDetail" className="text-black hover:underline">
             Women
           </a>
           <a href="#" className="text-black hover:underline">
             Kids
           </a>
-          <a href="#" className="text-black hover:underline">
+          <a href="/productDetail" className="text-black hover:underline">
             SNKRS
           </a>
         </nav>
