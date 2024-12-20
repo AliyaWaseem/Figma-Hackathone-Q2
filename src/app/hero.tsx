@@ -26,7 +26,7 @@ export default function Hero() {
           alt="shoes"
           width={1150}
           height={700}
-          className="w-[1440px] h-auto"
+          className="w-full h-auto"
         />
       </div>
 
