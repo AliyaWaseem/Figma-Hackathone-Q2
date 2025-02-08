@@ -31,7 +31,7 @@ const Cart = () => {
                     Nike Dri-FIT ADV TechKnit Ultra
                   </h3>
                   <p className="text-sm text-gray-600">
-                    Men's Short-Sleeve Running Top
+                    Men&apos;s Short-Sleeve Running Top
                   </p>
                   <p className="text-sm text-gray-600">
                     Ashen Slate/Cobalt Bliss
@@ -61,7 +61,7 @@ const Cart = () => {
                   className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-md"/>
                 <div>
                   <h3 className="text-lg font-medium">Nike Air Max 97 SE</h3>
-                  <p className="text-sm text-gray-600">Men's Shoes</p>
+                  <p className="text-sm text-gray-600">Men&apos;s Shoes</p>
                   <p className="text-sm text-gray-600">
                     Flat Pewter/Light Bone/Black/White
                   </p>

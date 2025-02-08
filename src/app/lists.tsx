@@ -41,12 +41,12 @@ export default function Lists() {
 
               {/* Kids */}
               <div>
-                <h3 className="text-lg font-semibold mb-4">Kids'</h3>
+                <h3 className="text-lg font-semibold mb-4">Kids</h3>
                 <ul className="space-y-2">
                   <li><Link href="#" className="text-text-primary-gray">Infant & Toddler Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Kids' Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Kids' Jordan Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Kids' Basketball Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray">Kid&apos;s Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray">Kid&apos;s Jordan Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray">Kid&apos;s Basketball Shoes</Link></li>
                 </ul>
               </div>
             </div>

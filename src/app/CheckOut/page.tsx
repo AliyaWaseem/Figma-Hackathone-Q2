@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import deliverIcon from "../../public/assets/icons/deliver.svg";
-import product38 from '../../public/assets/products/product-38.png';
-import product67 from '../../public/assets/products/product-67.png';
+import deliverIcon from "../../../public/assets/icons/deliver.svg";
+import product38 from '../../../public/assets/products/product-38.png';
+import product67 from '../../../public/assets/products/product-67.png';
 
 const CheckOut = () => {
   return (
     <div className='grid grid-cols-12 px-10 my-10 lg:px-32 lg:gap-20'>
         <div className='col-span-12 lg:col-span-8'>
             <h2 className='font-bold text-xl pb-4'>How would you like to get your order?</h2>
-            <p>Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. <span className='underline'>Learn More</span></p>
+            <p>Customs regulation for India require a copy of the recipient&apos;s KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. <span className='underline'>Learn More</span></p>
             <div className='flex border-[1.5px] border-black px-4 py-4  rounded-lg my-10'>
                 <Image src={deliverIcon} alt='Deliver Icon'/>
                 <span className='ps-6'>Deliver It</span>
@@ -51,7 +51,7 @@ const CheckOut = () => {
                     Make this my preferred address
                 </label>
             </div>
-            <h2 className='font-bold text-xl pt-4'>What's your contact information?</h2>
+            <h2 className='font-bold text-xl pt-4'>What&apos;s your contact information?</h2>
             <div className='my-6'>
                 <input className="w-full border-[#E5E5E5] rounded-md px-4 py-3 border-[2px] placeholder:text-text-secondary-gray" type="text" placeholder="Email" />
                 <span className='text-text-primary-gray text-xs'>A confirmation email will be sent after checkout.</span>
@@ -59,7 +59,7 @@ const CheckOut = () => {
                 <input className="w-full border-[#E5E5E5] rounded-md mt-4 px-4 py-3 border-[2px] placeholder:text-text-secondary-gray" type="text" placeholder="Phone Number" />
                 <span className='text-text-primary-gray text-xs'>A carrier might contact you to confirm delivery.</span>
             </div>
-            <h2 className='font-bold text-xl pt-4'>What's your PAN?</h2>
+            <h2 className='font-bold text-xl pt-4'>What&apos;s your PAN?</h2>
             <input className="w-full border-[#E5E5E5] mt-4 rounded-md px-4 py-3 border-[2px] placeholder:text-text-secondary-gray" type="text" placeholder="Email" />
             <span className='text-text-primary-gray text-xs'>Enter your PAN to enable payment with UPI, Net Banking or local card methods</span>
             <div className='my-2'>
@@ -113,7 +113,7 @@ const CheckOut = () => {
                     Nike Dri-FIT ADV TechKnit Ultra
                 </h3>
                 <p className="text-sm text-gray-600">
-                    Men's Short-Sleeve Running Top
+                    Men&apos;s Short-Sleeve Running Top
                 </p>
                 <p className="text-sm text-gray-600">
                     Ashen Slate/Cobalt Bliss
@@ -133,7 +133,7 @@ const CheckOut = () => {
                     Nike Dri-FIT ADV TechKnit Ultra
                 </h3>
                 <p className="text-sm text-gray-600">
-                    Men's Short-Sleeve Running Top
+                    Men&apos;s Short-Sleeve Running Top
                 </p>
                 <p className="text-sm text-gray-600">
                     Ashen Slate/Cobalt Bliss
